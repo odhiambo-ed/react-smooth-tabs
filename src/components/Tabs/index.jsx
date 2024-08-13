@@ -19,27 +19,27 @@ function index() {
         <Tab
           label="Components"
           isActive={activeTab === "components"}
-          onClick={() => handleTabClick("components")}
+          onClick={() => handleClick("components")}
         />
         <Tab
           label="State & Props"
           isActive={activeTab === "state-props"}
-          onClick={() => handleTabClick("state-props")}
+          onClick={() => handleClick("state-props")}
         />
         <Tab
           label="Lifecycle Methods"
           isActive={activeTab === "lifecycle-methods"}
-          onClick={() => handleTabClick("lifecycle-methods")}
+          onClick={() => handleClick("lifecycle-methods")}
         />
         <Tab
           label="Hooks"
           isActive={activeTab === "hooks"}
-          onClick={() => handleTabClick("hooks")}
+          onClick={() => handleClick("hooks")}
         />
         <Tab
           label="Advanced Topics"
           isActive={activeTab === "advanced-topics"}
-          onClick={() => handleTabClick("advanced-topics")}
+          onClick={() => handleClick("advanced-topics")}
         />
       </ul>
     </div>
