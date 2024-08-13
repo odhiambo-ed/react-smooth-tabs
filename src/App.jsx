@@ -1,10 +1,11 @@
 import './App.css'
+import Tabs from './components/Tabs'
 
 function App() {
 
   return (
     <>
-      <h1>Jesus in You I trust</h1>
+      <Tabs />
     </>
   )
 }
