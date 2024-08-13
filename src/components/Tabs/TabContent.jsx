@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 
 export default function TabContent({isActive, children}) {
   return (
@@ -6,4 +6,9 @@ export default function TabContent({isActive, children}) {
           { children }
     </div>
   )
+}
+
+TabContent.propTypes = {
+    isActive: PropTypes.bool.isRequired,
+    children: PropTypes.node.isRequired
 }
