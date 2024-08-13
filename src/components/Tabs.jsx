@@ -1,12 +1,12 @@
 
 
-function Tabs() {
+function Tabs({isActive, onClick, label}) {
   return (
-      <div className="container">
-          <ul className="nav">
-              
-          </ul>
-    </div>
+      <li className="nav-item">
+          <button className={`nav-link ${isActive ? 'active' : ''}`} onClick={onClick}>
+              { label }
+          </button>
+    </li>
   )
 }
 
