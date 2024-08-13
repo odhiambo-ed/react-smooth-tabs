@@ -1,6 +1,6 @@
 
 
-function Tabs({isActive, onClick, label}) {
+function Tab({isActive, onClick, label}) {
   return (
       <li className="nav-item">
           <button className={`nav-link ${isActive ? 'active' : ''}`} onClick={onClick}>
@@ -10,4 +10,4 @@ function Tabs({isActive, onClick, label}) {
   )
 }
 
-export default Tabs
+export default Tab
