@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 export default function TabContent({isActive, children}) {
   return (
-      <div className={`tab-pane fade ${isActive ? 'show active' : '' }`}>
+      <div className={`tab-pane p-3 fade ${isActive ? 'show active' : '' }`}>
           { children }
     </div>
   )
