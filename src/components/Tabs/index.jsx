@@ -3,7 +3,7 @@ import Tab from "./Tab"
 import TabContent from "./TabContent"
 
 
-function index() {
+function Tabs() {
     const [activeTab, setActiveTab] = useState("introduction")
 
     const handleClick = (item) => {
@@ -51,7 +51,7 @@ function index() {
             creating interactive UIs painless and efficient.
           </p>
           <p>
-            Let's dive into the world of React and explore its amazing features!
+            Let us dive into the world of React and explore its amazing features!
           </p>
         </TabContent>
         <TabContent isActive={activeTab === "components"}>
@@ -95,7 +95,7 @@ function index() {
           <h3>Lifecycle Methods</h3>
           <p>
             Lifecycle methods are special methods in class components that allow
-            you to run code at specific times in the component's lifecycle.
+            you to run code at specific times in the component lifecycle.
           </p>
           <ul>
             <li>
@@ -175,4 +175,4 @@ function index() {
 
 
 
-export default index
+export default Tabs
