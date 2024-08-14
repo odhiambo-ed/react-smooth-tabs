@@ -10,7 +10,7 @@ function Tabs() {
         setActiveTab(item)
     }
   return (
-    <div className="border">
+    <div className="border mt-5">
       <ul className="nav nav-tabs">
         <Tab
           label={"Introduction"}
