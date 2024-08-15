@@ -19,7 +19,7 @@
 
 ## Live Demo Link
 
-[Project Live Link](https://react-page-scroll-meter.vercel.app)
+[Project Live Link](https://react-smooth-tabs-m71v61yzw-white3ds-projects.vercel.app)
 
 ## Built With
 
